@@ -1,0 +1,32 @@
+{
+  "name": "cold-pool",
+  "version": "1.0.0",
+  "description": "A small RPC-based PIVX side daemon which automatically whitelists cold delegations.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PIVX-Labs/cold-pool.git"
+  },
+  "keywords": [
+    "cryptocurrency",
+    "pivx",
+    "staking",
+    "cold-wallet",
+    "non-custodial",
+    "staking-app",
+    "staking-pools",
+    "cold-staking"
+  ],
+  "author": "JSKitty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PIVX-Labs/cold-pool/issues"
+  },
+  "homepage": "https://github.com/PIVX-Labs/cold-pool#readme",
+  "dependencies": {
+    "@jskitty/bitcoin-rpc": "^1.0.1"
+  }
+}
