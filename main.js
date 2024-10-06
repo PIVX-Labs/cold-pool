@@ -65,7 +65,7 @@ server.listen(API_PORT, HOSTNAME, () => {
 async function checkAndWhitelistDelegations() {
     try {
         // Fetch any non-whitelisted delegations
-        const arrDelegations = await RPC.call("listcoldutxos", true);
+        const arrDelegations = await RPC.call("listcoldutxos");
 
         // Whitelist and compute stats
         let nTempPool = 0;
