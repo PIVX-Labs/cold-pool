@@ -16,7 +16,7 @@ const REFRESH_TIME = 10000;
 /** The public-facing API port for generic stats */
 const API_PORT = 5000;
 /** The host interface to open the API on */
-const HOSTNAME = '127.0.0.1';
+const HOSTNAME = '0.0.0.0';
 
 // Initialize market
 const args = process.argv.slice(2);
